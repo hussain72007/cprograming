@@ -1,0 +1,22 @@
+/*Name: shanawaz
+UIN: 251C039
+FIELD: Civil
+Div: B*/
+#include <stdio.h>
+
+int main() {
+float phy, chem, math, avg;
+
+printf("Enter Physics marks: ");
+scanf("%f", &phy);
+printf("Enter Chemistry marks: ");
+scanf("%f", &chem);
+scanf("%f", &math);
+printf("Enter Math marks: ");
+scanf("%f", &math);
+
+avg = (phy + chem + math) / 3;
+printf("Average PCM marks: %.2f%%\n", avg);
+(avg >= 50) ? printf("Student is eligible for admission.\n") : printf("Student is not eligible for admission.\n");
+return 0;
+}
